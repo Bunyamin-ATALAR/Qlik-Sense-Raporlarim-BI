@@ -1,0 +1,44 @@
+#ÖrnekProjeler #1
+
+
+
+🔍Türkiye Baraj Doluluk Oranları Raporu
+
+
+
+Selamlar 👋
+
+
+
+Yaklaşık olarak 3 saatlik bir uğraşın sonucunda ChatGPT vasıtasıyla alanlarını kendi belirlediğim başlıklar dahilinde Türkiye'nin Baraj Doluluk Oranları hakkında bir veri seti oluşturdum ve bu oluşturmuş olduğum veri setinin rapor, analiz ve derin analiz tarafında #Qlik Sense vasıtasıyla bir #Dashboard yapısı oluşturdum.
+
+
+
+📆 Oluşturmuş olduğum bu rapor son 10 yılın Türkiye genelinde ki 5 büyük şehrin(#İstanbul , #Ankara , #İzmir , #Antalya ve #Bursa) Nüfus Miktarını, Yıllık Su Talebi Miktarını, Yağış Miktarını, Baraj Doluluk Oranı Miktarını, Temiz Su Oranı Miktarını ve Kirli Su Oranı Miktarını göstermektedir.
+
+
+
+🛠 Rapor genelinde Yıl ve Şehir adında iki filtre alanı oluşturdum ve oluşturulan bu filtre sayesinde istenilen Yıl ve Şehir bilgileri verilerinin tüm grafiklerde dinamik olarak eş zamanlı görülebilmesini kullanıcılara sundum. Ayriyeten Yıl tarafında herhangi bir seçim yapılmaması dahilinde arka planda oluşturmuş olduğum değişken yapıları sayesinde her zaman mevcut son yılın verileri kümülatif olarak grafiklere yansımıştır. Böylelikle raporun gelecek yıllarda da kullanılabilirliğini sağlamış oldum.
+
+
+
+#KPI , #LineChart , #PieChart , #BarChart , #Table , #HeatChart , #Map ve #ScatterPlot gibi grafiklerle verilerin analizlerini ve görselleştirmelerini oluşturup gerek ilgili alanların Yıllık, Şehir ve Nüfus bazında Baraj doluluk oranlarını, temiz su miktarı oranlarını ve kirli su miktarı oranlarını rapor da oluşturup analiz ettim, gerekse de #ScatterPlot ve #HeatChart grafiklerinde ilgili verilerin derin analiz imkanlarını kullanıcılara sundum.
+
+
+
+🔍Analizlerim sonucu :
+
+
+
+1)Son 10 yılda 5 büyük şehrin baraj doluluk oranları her zaman %70 seviyelerinde kendini korumuşken bunların %60'ı temiz su olarak, %10'u ise kirli su miktarı olarak #Linear bir düzlemde seviyelerini korumuştur.
+
+
+
+2) #IsıHaritası grafiğine baktığımda son 10 yılda en çok su talebi ihtiyacı duyan şehrin sırasıyla İstanbul ve Ankara olduğunu analiz ettim. Bunların ana sebebinin nüfus miktarı ve nüfus artış oranı miktarı olduğunu tespit ettim. Özellikle 2014 ve 2022 yıllarında İstanbul, 2023 yılında ise Ankara son 10 yılın en çok su talebi ihtiyacı duyduğu yıllar olarak raporlara yansımıştır.
+
+
+
+3) #ScatterPlot grafiğinde 2023 yılı verilerinde İstanbul ve Ankara'nın Yağış miktarı ve Su talebi miktarında en üst seviyelerde olduğunu gözlemlerken, İzmir'in sadece Yağış miktarında beklenen seviyede olduğunu Antalya'nın ise Su talebi miktarında beklenen seviyede olduğunu gözlemledim. Bursa ise gerek su talebi miktarında, gerekse de yağış oranı miktarında beklenen seviyenin altında kaldığı gözlemlenmiştir. Bursa'nın bir sanayi şehri olduğunu da göz önünde bulundurursak yağış oranlarının azlığı bir etken olarak burada gözümüze çarpıyor.
+
+
+#BusinessIntelligence #DataVisualization #DataAnalytics #DataAnalysis #QlikSense #Veri #VeriEntegrasyonu #Data #AI #YapayZekâ
